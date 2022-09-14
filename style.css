@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgb(81, 0, 148)), url(images/cityscape.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.banner-text {
+    text-align: center;
+    color: white;
+    padding-top: 180px;
+}
+
+.banner-text h1 {
+    font-size: 110px;
+    font-family: 'Ms Madi', cursive;
+
+}
+
+.banner-text h2 {
+    font-size: 30px;
+    font-style: italic;
+}
+
+.portrait {
+    position: relative;
+    top: -10px;
+    width: 200px;
+    clip-path: circle();
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#Page2 {
+    width: 100%;
+    padding: 24px 0;
+    height: 100.5vh;
+}
+
+.second-page {
+    height: 1000px;
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+.second-page p {
+    margin: auto;
+    font-family: 'Combo', cursive;
+    font-size: 50px;
+    color: #009688;
+    font-weight: bolder;
+}
+
+.second-page h1 {
+    margin: auto;
+    font-family: 'Combo', cursive;
+    font-size: 20px;
+    font: weight 700px;
+    position: relative;
+    top: 40px;
+}
+
+.second-page p1 {
+    margin: auto;
+    position: relative;
+    top: 40px;
+    font-family: 'Combo', cursive;
+    font-size: 30px;
+    color: #009688;
+    font-weight: 500;
+}
+
+.divider {
+    position: relative;
+    top: 10px;
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.computer {
+    position: relative;
+    top: 50px;
+    left: -250px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.second-page ul {
+    margin: auto;
+    font-family: 'Combo', cursive;
+    font-size: 25px;
+    font-weight: bolder;
+    position: relative;
+    top: -50px;
+}
+
+.divider2 {
+    position: relative;
+    top: -160px;
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Page3 {
+    width: 100%;
+    padding: 24px 0;
+    height: 100.5vh;
+}
+
+.third-page {
+    height: 1300px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.third-page p {
+    position: relative;
+    top: 70px;
+    margin: auto;
+    font-family: 'Combo', cursive;
+    font-size: 50px;
+    color: #009688;
+    font-weight: bolder;
+}
+
+.first-ul {
+    column-count: 3;
+    list-style: none;
+    font-family: 'Combo', cursive;
+    font-size: 25px;
+    font-weight: bolder;
+    position: relative;
+    top: 275px;
+    text-align: justify;
+}
+
+.leadership {
+    position: relative;
+    top: 150px;
+    left: 600px;
+    width: 400px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.divider3 {
+    position: relative;
+    top: 150px;
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.second-ul {
+    column-count: 1;
+    list-style: none;
+    font-family: 'Combo', cursive;
+    font-size: 25px;
+    font-weight: bolder;
+    position: relative;
+    top: 145px;
+    text-align: center;
+}
+
+.skills {
+    position: relative;
+    top: -25px;
+    left: -410px;
+    width: 350px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.three-stars {
+    position: relative;
+    top: -145px;
+    left: 250px;
+    width: 150px;
+    height: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.four-stars {
+    position: relative;
+    top: -235px;
+    left: 250px;
+    width: 150px;
+    height: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.five-stars {
+    position: relative;
+    top: -145px;
+    left: 250px;
+    width: 150px;
+    height: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header2 {
+    margin: auto;
+    font-family: 'Combo', cursive;
+    font-size: 30px;
+    color: #ff3c78;
+    font-weight: bolder;
+}
+
+.header2 a:link {
+    color: #ff3c78;
+    text-decoration: none;
+}
+
+.header2 a:visited {
+    color: #ff3c78;
+}
+
+.header2:after {
+    content: "";
+    position: absolute;
+    background-color: #ff3c78;
+    height: 3px;
+    width: 0%;
+    left: 877px;
+    bottom: -2175px;
+    transition: 0.3s;
+}
+
+.header2:hover:after {
+    width: 7.95%;
+}
+
+.bottomBorder {
+    text-align: center;
+    width: 100%;
+    padding: 5px 0;
+    height: 8vh;
+    margin-top: 300px;
+}
+
+.thinBorder {
+    width: 100%;
+    padding: 5px 0;
+    height: 0.0.0.1vh;
+    margin-top: -97px;
+}
+
+.tradeMark {
+    color: #000000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+    position: relative;
+}
+
+#Contact-name {
+    width: 100%;
+    padding: 24px 0;
+    height: 100vh;
+}
+
+.contactPg {
+    height: 100vh;
+    text-align: center;
+}
+
+.contactPg h1 {
+    font-size: 110px;
+    font-family: 'Ms Madi', cursive;
+    color: #06b4a3;
+}
+
+.contactPg p1 {
+    font-size: 25px;
+    font-family: 'Combo', cursive;
+    font-weight: 600;
+    position: relative;
+    top: 100px;
+}
+
+.divider4 {
+    position: relative;
+    top: 60px;
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-info {
+    position: relative;
+    top: -380px;
+    text-align: center;
+}
+
+.thinBorder2 {
+    width: 100%;
+    padding: 5px 0;
+    height: 0.0.0.1vh;
+    margin-top: -120px;
+}
