@@ -45,9 +45,10 @@
 }
 
 .second-page {
-    height: 1000px;
+    height: 942px;
     text-align: center;
     padding-bottom: 0px;
+    overflow-anchor: none;
 }
 
 .second-page p {
@@ -121,9 +122,10 @@
 }
 
 .third-page {
-    height: 1300px;
+    height: 1200px;
     text-align: center;
     padding-bottom: 30px;
+    overflow-anchor: none;
 }
 
 .third-page p {
@@ -134,6 +136,7 @@
     font-size: 50px;
     color: #009688;
     font-weight: bolder;
+    
 }
 
 .first-ul {
@@ -143,6 +146,7 @@
     font-size: 25px;
     font-weight: bolder;
     position: relative;
+    right: -200px;
     top: 275px;
     text-align: justify;
 }
@@ -246,7 +250,7 @@
     height: 3px;
     width: 0%;
     left: 877px;
-    bottom: -2175px;
+    bottom: -2134px;
     transition: 0.3s;
 }
 
@@ -266,7 +270,9 @@
     width: 100%;
     padding: 5px 0;
     height: 0.0.0.1vh;
-    margin-top: -97px;
+    margin-top: -83px;
+    overflow-anchor: none;
+    
 }
 
 .tradeMark {
@@ -314,6 +320,9 @@
     position: relative;
     top: -380px;
     text-align: center;
+    font-size: 18px;
+    font-family: 'Combo', cursive;
+    font-weight: 600;
 }
 
 .thinBorder2 {
