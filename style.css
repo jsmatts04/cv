@@ -45,10 +45,11 @@
 }
 
 .second-page {
-    height: 942px;
+    height: 105.6vh;
     text-align: center;
     padding-bottom: 0px;
     overflow-anchor: none;
+    position: sticky;
 }
 
 .second-page p {
@@ -122,7 +123,7 @@
 }
 
 .third-page {
-    height: 1200px;
+    height: 135vh;
     text-align: center;
     padding-bottom: 30px;
     overflow-anchor: none;
@@ -136,7 +137,7 @@
     font-size: 50px;
     color: #009688;
     font-weight: bolder;
-    
+
 }
 
 .first-ul {
@@ -250,7 +251,7 @@
     height: 3px;
     width: 0%;
     left: 877px;
-    bottom: -2134px;
+    bottom: -2190px;
     transition: 0.3s;
 }
 
@@ -270,9 +271,10 @@
     width: 100%;
     padding: 5px 0;
     height: 0.0.0.1vh;
-    margin-top: -83px;
+    margin-top: -86px;
     overflow-anchor: none;
-    
+    position: sticky;
+
 }
 
 .tradeMark {
@@ -330,4 +332,5 @@
     padding: 5px 0;
     height: 0.0.0.1vh;
     margin-top: -120px;
+    position: sticky;
 }
