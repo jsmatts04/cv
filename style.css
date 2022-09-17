@@ -304,7 +304,7 @@ html,body{
 
 .divider4 {
     position: relative;
-    top: 80px;
+    top: -85px;
     width: 600px;
     display: block;
     margin-left: auto;
@@ -313,7 +313,7 @@ html,body{
 
 .contact-info {
     position: relative;
-    top: -275px;
+    top: -200px;
     text-align: center;
     font-size: 18px;
     font-family: 'Combo', cursive;
